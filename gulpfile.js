@@ -1,5 +1,5 @@
 'use strict';
-var cucumber = require('./');
+
 var gulp = require('gulp'),
     protractor = require('gulp-protractor').protractor;
 
@@ -7,14 +7,11 @@ var gulp = require('gulp'),
     gulp.task('jenkins', function () {
         gulp.src(['/noNeedForThis'])
             .pipe(protractor({
-                'configFile': 'demo.conf.js',
-                'steps': 'testSet/features/fruit.feature',
-                'format': 'summary',
-                'tags': '~@shoppingBasket'
-        // --cucumberOpts.tags @shoppingBasket
+                configFile: 'demo.conf.js',
+                args: [
+                    '--cucumberOpts.tags', '@shoppingBasket']
             }))
             .on('error', function (e) {
                 throw e;
             });    
     });
-
