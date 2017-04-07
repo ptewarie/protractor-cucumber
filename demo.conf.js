@@ -21,6 +21,7 @@ exports.config = {
 
 
     cucumberOpts: {
+        // require: './testSet/features/*.feature',
         require: './testSet/features/step_definitions/*.js',
 
         tags: false,
