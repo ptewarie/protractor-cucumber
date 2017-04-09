@@ -4,6 +4,7 @@
   "description": "democucumber",
   "main": "demo.conf.js",
   "devDependencies": {
+    "chai-as-promised": "^6.0.0",
     "config-chain": "1.1.9",
     "gulp": "3.9.1",
     "gulp-protractor": "0.0.12",
@@ -26,7 +27,6 @@
     "xmldom": "0.1.22",
     "xpath": "0.0.23"
   },
-  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
