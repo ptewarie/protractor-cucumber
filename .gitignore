@@ -1,3 +1,4 @@
 //directory that is ignored
 
 node_modules/
+node_modules_fake/
