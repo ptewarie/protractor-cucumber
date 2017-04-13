@@ -6,6 +6,7 @@
   "devDependencies": {
     "chai-as-promised": "^6.0.0",
     "config-chain": "1.1.9",
+    "cucumber": "^2.0.0-rc.9",
     "gulp": "3.9.1",
     "gulp-protractor": "0.0.12",
     "http-get": "0.5.10",
