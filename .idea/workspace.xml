@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d2a317b-8169-4d02-bfcf-98627883f7f2" name="Default" comment="updated package.json with Junit-reporter&#10;updated config path for reporting directory&#10;deleted batch files &#10;added directories to gitignore">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/protractorCucumber.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+    <list default="true" id="6d2a317b-8169-4d02-bfcf-98627883f7f2" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/klad.js" afterPath="" />
     </list>
@@ -631,7 +628,7 @@
       <workItem from="1491768774358" duration="1602000" />
       <workItem from="1491863025266" duration="913000" />
       <workItem from="1491920417728" duration="13000" />
-      <workItem from="1492072327103" duration="1821000" />
+      <workItem from="1492072327103" duration="1867000" />
     </task>
     <task id="LOCAL-00001" summary="update json file with gulp">
       <created>1491556923658</created>
@@ -745,7 +742,14 @@
       <option name="project" value="LOCAL" />
       <updated>1492074552790</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="updated package.json with Junit-reporter&#10;updated config path for reporting directory&#10;deleted batch files &#10;added directories to gitignore">
+      <created>1492074725587</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1492074725587</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -781,7 +785,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137939000" />
+    <option name="totallyTimeSpent" value="137985000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -837,13 +841,13 @@
     <MESSAGE value="updated protractor version" />
     <MESSAGE value="added ignore file to keep node modules out" />
     <MESSAGE value="updated packagejson" />
-    <MESSAGE value="updated package.json with Junit-reporter&#10;updated config path for reporting directory&#10;deleted batch files &#10;added directories to gitignore" />
     <MESSAGE value="updated gitignore" />
     <MESSAGE value="added hook" />
     <MESSAGE value="updated git ignore" />
     <MESSAGE value="added directories to gitignore" />
     <MESSAGE value="&#10;added directories to gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;added directories to gitignore" />
+    <MESSAGE value="updated package.json with Junit-reporter&#10;updated config path for reporting directory&#10;deleted batch files &#10;added directories to gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated package.json with Junit-reporter&#10;updated config path for reporting directory&#10;deleted batch files &#10;added directories to gitignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
