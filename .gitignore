@@ -4,4 +4,4 @@ node_modules/
 node_modules_fake/
 documentation/
 testSet/features/reporting/
-.idea/
+/.idea/
