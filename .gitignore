@@ -1,4 +1,7 @@
-//directory that is ignored
+//directories that are ignored
 
-node_modules/
-node_modules_fake/
+**/node_modules/
+**/node_modules_fake/
+**/documentation/
+**/testSet/features/reporting/
+**/.idea/workspace.xml

@@ -13,5 +13,5 @@ var gulp = require('gulp'),
             }))
             .on('error', function (e) {
                 throw e;
-            });    
+            });
     });
