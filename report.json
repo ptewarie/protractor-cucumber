@@ -1,0 +1,26 @@
+[
+  {
+    "description": "Update shopping basket",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "duration": 0
+  }
+]
