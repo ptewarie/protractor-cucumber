@@ -32,7 +32,7 @@ exports.config = {
         'no-source': true
     },
 
-    resultJsonOutputFile: '../testSet/features/reporting/report.json'
+    resultJsonOutputFile: './testSet/features/reporting/report.json'
    /* afterLaunch : function () {
         var path = require('path');
         var reporter = require('cucumber-html-reporter');
