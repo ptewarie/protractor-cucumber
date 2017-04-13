@@ -4,6 +4,7 @@
   "description": "democucumber",
   "main": "demo.conf.js",
   "devDependencies": {
+    "chai": "^3.5.0",
     "chai-as-promised": "^6.0.0",
     "config-chain": "1.1.9",
     "cucumber": "^2.0.0-rc.9",
