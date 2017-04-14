@@ -4,6 +4,7 @@
   "description": "democucumber",
   "main": "demo.conf.js",
   "devDependencies": {
+    "atob": "^2.0.3",
     "chai": "^3.5.0",
     "chai-as-promised": "^6.0.0",
     "config-chain": "1.1.9",
@@ -16,6 +17,8 @@
     "jasmine": "2.5.2",
     "jasmine-core": "2.3.4",
     "jasmine-custom-message": "0.8.2",
+    "mustache": "^2.3.0",
+    "object-assign": "^4.1.1",
     "protractor": "5.1.1",
     "protractor-cucumber-framework": "^3.0.0",
     "random-strings": "0.0.1",
