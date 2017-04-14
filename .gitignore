@@ -1,8 +1,9 @@
 //directories that are ignored
 
 **/node_modules/
-/reports/*.json
+/reports/
 **/node_modules_fake/
 **/documentation/
 **/testSet/features/reporting/
 **/.idea/*.xml
+test.js
