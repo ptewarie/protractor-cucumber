@@ -13,9 +13,8 @@ module.exports = function JsonOutputHook() {
     this.After(function (scenario, callback) {
         if (scenario.isFailed()) {
             browser.takeScreenshot().then(function (png) {
-                // var decodedImage = new Buffer(png, 'base64').toString('binary');
-                var base64Image = new Buffer(png, 'binary').toString('base64');
-                scenario.attach(base64Image, 'image/png');
+                var decodedImage = new Buffer(png, 'base64').toString('binary');
+                scenario.attach(decodedImage, 'image/png');
 
                 callback();
             });
