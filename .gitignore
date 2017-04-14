@@ -5,4 +5,4 @@
 **/node_modules_fake/
 **/documentation/
 **/testSet/features/reporting/
-**/.idea/*.xml
+**.idea/
