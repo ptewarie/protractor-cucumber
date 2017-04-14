@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d2a317b-8169-4d02-bfcf-98627883f7f2" name="Default" comment="removed report.json&#10;added html-reporter">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports/cucumber-test-results.json" afterPath="$PROJECT_DIR$/reports/cucumber-test-results.json" />
+    <list default="true" id="6d2a317b-8169-4d02-bfcf-98627883f7f2" name="Default" comment="changed it back">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo.conf.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="demo.conf.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo.conf.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+            <state relative-caret-position="544">
+              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -42,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="61" lean-forward="true" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
+              <caret line="11" column="59" lean-forward="false" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -51,28 +50,9 @@
       <file leaf-file-name="hooks.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testSet/features/step_definitions/support/hooks.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+            <state relative-caret-position="306">
+              <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cucumber-test-results.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/reports/cucumber-test-results.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="112" column="7" lean-forward="false" selection-start-line="112" selection-start-column="7" selection-end-line="112" selection-end-column="7" />
-              <folding>
-                <marker date="1492162653014" expanded="true" signature="3067:3081" ph="{&quot;status&quot;: &quot;passed&quot;...}" />
-                <marker date="1492162653014" expanded="true" signature="3067:3275" ph="{&quot;keyword&quot;: &quot;After &quot;...}" />
-                <marker date="1492162653014" expanded="true" signature="3132:3263" ph="{&quot;location&quot;: &quot;C:\\Data\\protractorCucumber\\testSet\\features\\step_definitions\\support\\hooks.js:13&quot;...}" />
-                <marker date="1492162653014" expanded="true" signature="3303:3482" ph="[...]" />
-                <marker date="1492162653014" expanded="true" signature="3315:3385" ph="{&quot;name&quot;: &quot;@orderFruit&quot;...}" />
-                <marker date="1492162653014" expanded="true" signature="3397:3472" ph="{&quot;name&quot;: &quot;@shoppingBasket&quot;...}" />
-                <marker date="1492162653014" expanded="true" signature="3637:3709" ph="[...]" />
-                <marker date="1492162653014" expanded="true" signature="3645:3703" ph="{&quot;name&quot;: &quot;@orderFruit&quot;...}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -80,8 +60,18 @@
       <file leaf-file-name="fruit.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testSet/features/fruit.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="60" lean-forward="false" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
+            <state relative-caret-position="306">
+              <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -116,48 +106,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>total items</find>
-      <find>search</find>
-      <find>the total amount of item</find>
-      <find>Apple</find>
-      <find>click on</find>
-      <find>correct amount of</find>
-      <find>click</find>
-      <find>addbu</find>
-      <find>I click on</find>
-      <find>Potassium</find>
-      <find>reporter.</find>
-      <find>browser.sleep(1000);</find>
-      <find>$</find>
-      <find>arrow</find>
-      <find>Q</find>
-      <find>sleep</find>
-      <find>addcar</find>
-      <find>card</find>
-      <find>1000</find>
-      <find>total price</find>
-      <find>.ignore</find>
-      <find>.ignor</find>
-      <find>.igno</find>
-      <find>.ign</find>
-      <find>.ig</find>
-      <find>.i</find>
-      <find>.</find>
-      <find>.u</find>
-      <find>.id</find>
-      <find>.idea</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>// browser.sleep(1000);</replace>
-      <replace>3000</replace>
-      <replace>2000</replace>
-    </replaceStrings>
-    <dirStrings>
-      <dir>C:\Data\protractorCucumber</dir>
-    </dirStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -181,16 +129,18 @@
         <option value="$PROJECT_DIR$/testSet/features/step_definitions/genericFunctions/genericFunctions.js" />
         <option value="$PROJECT_DIR$/testSet/features/step_definitions/my_steps.js" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/report.sh" />
         <option value="$PROJECT_DIR$/report.bat" />
         <option value="$PROJECT_DIR$/hooks/after.hooks.js" />
         <option value="$PROJECT_DIR$/testSet/features/step_definitions/support/hooks1.js" />
-        <option value="$PROJECT_DIR$/testSet/features/step_definitions/support/hooks.js" />
-        <option value="$PROJECT_DIR$/testSet/features/fruit.feature" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/demo.conf.js" />
+        <option value="$PROJECT_DIR$/reports/cucumber-test-results.json" />
+        <option value="$PROJECT_DIR$/testSet/features/step_definitions/support/hooks.js" />
+        <option value="$PROJECT_DIR$/testSet/features/fruit.feature" />
+        <option value="$PROJECT_DIR$/test.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -246,6 +196,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="protractorCucumber" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protractorCucumber" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protractorCucumber" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testSet" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -630,9 +594,6 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="6d2a317b-8169-4d02-bfcf-98627883f7f2" name="Default" comment="" />
@@ -654,7 +615,7 @@
       <workItem from="1491863025266" duration="913000" />
       <workItem from="1491920417728" duration="13000" />
       <workItem from="1492072327103" duration="1867000" />
-      <workItem from="1492099447152" duration="11071000" />
+      <workItem from="1492099447152" duration="14949000" />
     </task>
     <task id="LOCAL-00001" summary="update json file with gulp">
       <created>1491556923658</created>
@@ -866,54 +827,92 @@
       <option name="project" value="LOCAL" />
       <updated>1492162265129</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="removed report.json&#10;added html-reporter">
+      <created>1492162685482</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1492162685482</updated>
+    </task>
+    <task id="LOCAL-00032" summary="changed feature to include assertion error">
+      <created>1492163382937</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1492163382937</updated>
+    </task>
+    <task id="LOCAL-00033" summary="testing changing string image to base64">
+      <created>1492164235780</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1492164235780</updated>
+    </task>
+    <task id="LOCAL-00034" summary="changed it back">
+      <created>1492164672129</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1492164672129</updated>
+    </task>
+    <task id="LOCAL-00035" summary="changed it back">
+      <created>1492165976316</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1492165976316</updated>
+    </task>
+    <task id="LOCAL-00036" summary="changed it back">
+      <created>1492166007042</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1492166007042</updated>
+    </task>
+    <task id="LOCAL-00037" summary="changed it back">
+      <created>1492166058841</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1492166058841</updated>
+    </task>
+    <task id="LOCAL-00038" summary="changed it back">
+      <created>1492166091716</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1492166091716</updated>
+    </task>
+    <task id="LOCAL-00039" summary="changed it back">
+      <created>1492166274187</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1492166274187</updated>
+    </task>
+    <task id="LOCAL-00040" summary="changed it back">
+      <created>1492166497460</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1492166497460</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="test_feature - 2017.04.01 at 22h 10m 06s.xml">
-      <configuration name="test.feature" configurationId="cucumber.js" />
-    </history-entry>
-    <history-entry file="test_feature - 2017.04.01 at 22h 10m 40s.xml">
-      <configuration name="test.feature" configurationId="cucumber.js" />
-    </history-entry>
-    <history-entry file="test_feature_(1) - 2017.04.01 at 22h 19m 41s.xml">
-      <configuration name="test.feature (1)" configurationId="cucumber.js" />
-    </history-entry>
-    <history-entry file="test_feature_(1) - 2017.04.01 at 22h 27m 56s.xml">
-      <configuration name="test.feature (1)" configurationId="cucumber.js" />
-    </history-entry>
-    <history-entry file="test_feature_(1) - 2017.04.01 at 22h 31m 26s.xml">
-      <configuration name="test.feature (1)" configurationId="cucumber.js" />
-    </history-entry>
-    <history-entry file="test_feature_(1) - 2017.04.01 at 22h 33m 14s.xml">
-      <configuration name="test.feature (1)" configurationId="cucumber.js" />
-    </history-entry>
-    <history-entry file="test_feature_(1) - 2017.04.01 at 22h 33m 28s.xml">
-      <configuration name="test.feature (1)" configurationId="cucumber.js" />
-    </history-entry>
-    <history-entry file="test_feature_(2) - 2017.04.02 at 09h 03m 56s.xml">
-      <configuration name="test.feature (2)" configurationId="cucumber.js" />
-    </history-entry>
-    <history-entry file="test_feature_(2) - 2017.04.02 at 09h 05m 05s.xml">
-      <configuration name="test.feature (2)" configurationId="cucumber.js" />
-    </history-entry>
-    <history-entry file="test_feature_(2) - 2017.04.02 at 09h 18m 55s.xml">
-      <configuration name="test.feature (2)" configurationId="cucumber.js" />
-    </history-entry>
-  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152813000" />
+    <option name="totallyTimeSpent" value="156691000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18545838" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18545838" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42282957" sideWeight="0.5029762" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2815846" sideWeight="0.5052687" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32762313" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2815846" sideWeight="0.49702382" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2815846" sideWeight="0.4947313" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3254818" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -970,7 +969,10 @@
     <MESSAGE value="test shell file" />
     <MESSAGE value="removed report.json&#10;added html-reporter&#10;removed protractor reporter dependencies from package.json&#10;created folder for reports" />
     <MESSAGE value="removed report.json&#10;added html-reporter" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed report.json&#10;added html-reporter" />
+    <MESSAGE value="changed feature to include assertion error" />
+    <MESSAGE value="testing changing string image to base64" />
+    <MESSAGE value="changed it back" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed it back" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -979,13 +981,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/testSet/features/step_definitions/locators/landingScr.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testSet/features/step_definitions/my_steps.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2737">
@@ -1142,7 +1137,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/readme.md" />
-    <entry file="file://$PROJECT_DIR$/.gitignore" />
     <entry file="file://$PROJECT_DIR$/originalpackage.json" />
     <entry file="file://$PROJECT_DIR$/report.bat">
       <provider selected="true" editor-type-id="text-editor">
@@ -1164,14 +1158,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testSet/features/step_definitions/my_steps.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1208,39 +1194,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testSet/features/step_definitions/support/hooks.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testSet/features/fruit.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="60" lean-forward="false" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reports/cucumber-test-results.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="112" column="7" lean-forward="false" selection-start-line="112" selection-start-column="7" selection-end-line="112" selection-end-column="7" />
-          <folding>
-            <marker date="1492162653014" expanded="true" signature="3067:3081" ph="{&quot;status&quot;: &quot;passed&quot;...}" />
-            <marker date="1492162653014" expanded="true" signature="3067:3275" ph="{&quot;keyword&quot;: &quot;After &quot;...}" />
-            <marker date="1492162653014" expanded="true" signature="3132:3263" ph="{&quot;location&quot;: &quot;C:\\Data\\protractorCucumber\\testSet\\features\\step_definitions\\support\\hooks.js:13&quot;...}" />
-            <marker date="1492162653014" expanded="true" signature="3303:3482" ph="[...]" />
-            <marker date="1492162653014" expanded="true" signature="3315:3385" ph="{&quot;name&quot;: &quot;@orderFruit&quot;...}" />
-            <marker date="1492162653014" expanded="true" signature="3397:3472" ph="{&quot;name&quot;: &quot;@shoppingBasket&quot;...}" />
-            <marker date="1492162653014" expanded="true" signature="3637:3709" ph="[...]" />
-            <marker date="1492162653014" expanded="true" signature="3645:3703" ph="{&quot;name&quot;: &quot;@orderFruit&quot;...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -1249,18 +1202,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+    <entry file="file://$PROJECT_DIR$/demo.conf.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="61" lean-forward="true" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
+        <state relative-caret-position="544">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo.conf.js">
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        <state relative-caret-position="187">
+          <caret line="11" column="59" lean-forward="false" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testSet/features/step_definitions/my_steps.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testSet/features/step_definitions/support/hooks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reports/cucumber-test-results.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5227">
+          <caret line="97" column="1503" lean-forward="true" selection-start-line="97" selection-start-column="1503" selection-end-line="97" selection-end-column="1503" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testSet/features/fruit.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="6" lean-forward="true" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
