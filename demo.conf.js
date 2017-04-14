@@ -25,7 +25,7 @@ exports.config = {
         require: [
             './testSet/features/step_definitions/*.js',
             'testSet/features/step_definitions/support/hooks.js' ],
-        tags: false,
+        tags: true,
         format: 'pretty',
         profile: false,
         'no-source': true
