@@ -1,7 +1,7 @@
 //directories that are ignored
 
 **/node_modules/
-**/reports/
+/reports/
 **/node_modules_fake/
 **/documentation/
 **/testSet/features/reporting/
