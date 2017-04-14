@@ -1,7 +1,8 @@
 //directories that are ignored
 
 **/node_modules/
+**/reports/
 **/node_modules_fake/
 **/documentation/
 **/testSet/features/reporting/
-**/.idea/workspace.xml
+**/.idea/*.xml
