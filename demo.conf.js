@@ -22,10 +22,12 @@ exports.config = {
         strict:true,
         require: [
             './testSet/features/step_definitions/*.js',
-            'testSet/features/step_definitions/support/hooks.js' ],
+            'testSet/features/step_definitions/support/hooks.js'],
         tags: true,
-        format: 'pretty',
+        format: "json:./reports/cucumber-test-results.json",
+        // format: 'pretty',
         profile: false,
+
         'no-source': true
     }
 
