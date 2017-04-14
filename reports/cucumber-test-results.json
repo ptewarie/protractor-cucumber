@@ -14,7 +14,7 @@
             "name": "I go to the fruit site",
             "result": {
               "status": "passed",
-              "duration": 1458139090
+              "duration": 2253462248
             },
             "line": 8,
             "match": {
@@ -27,7 +27,7 @@
             "name": "I click on \"Pear\"",
             "result": {
               "status": "passed",
-              "duration": 2184781
+              "duration": 6568622
             },
             "line": 12,
             "match": {
@@ -40,7 +40,7 @@
             "name": "I click the add button in fruit details screen",
             "result": {
               "status": "passed",
-              "duration": 1626095904
+              "duration": 3530393488
             },
             "line": 13,
             "match": {
@@ -53,7 +53,7 @@
             "name": "the total items should be \"1\" and the total price \"8.00\"",
             "result": {
               "status": "passed",
-              "duration": 160185135
+              "duration": 287616853
             },
             "line": 14,
             "match": {
@@ -66,7 +66,7 @@
             "name": "I click on the clear button",
             "result": {
               "status": "passed",
-              "duration": 164931768
+              "duration": 409889168
             },
             "line": 15,
             "match": {
@@ -79,7 +79,7 @@
             "name": "the total items should be \"0\" and the total price \"0.00\"",
             "result": {
               "status": "passed",
-              "duration": 77670388
+              "duration": 202099817
             },
             "line": 16,
             "match": {
@@ -91,7 +91,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 576539
+              "duration": 307458
             },
             "hidden": true,
             "match": {
