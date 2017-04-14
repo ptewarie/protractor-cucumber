@@ -1,7 +1,10 @@
+'use strict';
 var cucumber = require('cucumber');
-fs = require('fs-extra');
-path = require('path');
+var fs = require('fs-extra');
+var path = require('path');
 var reporter = require('cucumber-html-reporter');
+
+
 
 
 
