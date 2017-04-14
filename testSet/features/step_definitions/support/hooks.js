@@ -1,6 +1,7 @@
-var Cucumber = require('cucumber');
+var cucumber = require('cucumber');
 fs = require('fs-extra');
 path = require('path');
+var reporter = require('cucumber-html-reporter');
 
 
 
@@ -10,7 +11,6 @@ module.exports = function JsonOutputHook() {
 
 
     this.registerHandler('AfterFeatures', function(features, callback) {
-        var reporter = require('cucumber-html-reporter');
         var options = {
             theme: 'bootstrap',
             jsonFile: 'reports/cucumber-test-results.json',
