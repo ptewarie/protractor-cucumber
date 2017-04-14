@@ -9,7 +9,7 @@ var gulp = require('gulp'),
             .pipe(protractor({
                 configFile: 'demo.conf.js',
                 args: [
-                    '--cucumberOpts.tags', '@orderFruit']
+                    '--cucumberOpts.tags', '@shoppingBasket']
             }))
             .on('error', function (e) {
                 throw e;
