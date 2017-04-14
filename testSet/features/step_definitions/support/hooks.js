@@ -10,6 +10,8 @@ var reportFile = path.join(reportsDir, 'cucumber-test-results.json');
 
 module.exports = function JsonOutputHook() {
 
+
+
     this.After(function (scenario, callback) {
         if (scenario.isFailed()) {
             browser.takeScreenshot().then(function (png) {
@@ -35,6 +37,7 @@ module.exports = function JsonOutputHook() {
             console.log('json file location: ' + reportFile);
         });
     };
+
 
     this.registerListener(JsonFormatter);
 };
