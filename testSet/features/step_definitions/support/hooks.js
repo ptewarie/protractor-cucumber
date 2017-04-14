@@ -40,9 +40,7 @@ module.exports = function JsonOutputHook() {
             }
 
         };
-        browser.driver.takeScreenshot().then(function (buffer) {
-            return scenario.attach(new Buffer(buffer, 'base64'), 'image/png');
-        });
+
 
         reporter.generate(options);
         callback();
