@@ -1,0 +1,127 @@
+[
+  {
+    "description": "  As a user I should be able to get the correct price with the correct nutrition\n  In order to order my fruit",
+    "elements": [
+      {
+        "id": "ordering-fruit;update-shopping-basket",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Update shopping basket",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I go to the fruit site",
+            "result": {
+              "status": "passed",
+              "duration": 1458139090
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Data\\protractorCucumber\\testSet\\features\\step_definitions\\my_steps.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on \"Pear\"",
+            "result": {
+              "status": "passed",
+              "duration": 2184781
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\Data\\protractorCucumber\\testSet\\features\\step_definitions\\my_steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click the add button in fruit details screen",
+            "result": {
+              "status": "passed",
+              "duration": 1626095904
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Data\\protractorCucumber\\testSet\\features\\step_definitions\\my_steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the total items should be \"1\" and the total price \"8.00\"",
+            "result": {
+              "status": "passed",
+              "duration": 160185135
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Data\\protractorCucumber\\testSet\\features\\step_definitions\\my_steps.js:34"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on the clear button",
+            "result": {
+              "status": "passed",
+              "duration": 164931768
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\Data\\protractorCucumber\\testSet\\features\\step_definitions\\my_steps.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the total items should be \"0\" and the total price \"0.00\"",
+            "result": {
+              "status": "passed",
+              "duration": 77670388
+            },
+            "line": 16,
+            "match": {
+              "location": "C:\\Data\\protractorCucumber\\testSet\\features\\step_definitions\\my_steps.js:34"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 576539
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Data\\protractorCucumber\\testSet\\features\\step_definitions\\support\\hooks.js:13"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@orderFruit",
+            "line": 1
+          },
+          {
+            "name": "@shoppingBasket",
+            "line": 10
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "ordering-fruit",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "Ordering fruit",
+    "tags": [
+      {
+        "name": "@orderFruit",
+        "line": 1
+      }
+    ],
+    "uri": "C:\\Data\\protractorCucumber\\testSet\\features\\fruit.feature"
+  }
+]

@@ -21,33 +21,15 @@ exports.config = {
 
 
     cucumberOpts: {
-        // require: './testSet/features/*.feature',
-        require: './testSet/features/step_definitions/*.js',
-
+        strict:true,
+        require: [
+            './testSet/features/step_definitions/*.js',
+            'testSet/features/step_definitions/support/hooks.js' ],
         tags: false,
         format: 'pretty',
-        //format: "json:./node_modules/cucumber-protractor-report/report_template/cucumber_report.json",
-
         profile: false,
         'no-source': true
-    },
+    }
 
-    resultJsonOutputFile: './report.json'
-   /* afterLaunch : function () {
-        var path = require('path');
-        var reporter = require('cucumber-html-reporter');
-        var fs = require('fs');
-        //var jsonReport = path.resolve(__dirname,'cucmber-json-report');
-        //var htmlReport = path.resolve(jsonReport,'report.html');
-       var jsonFile= 'test/report/cucumber_report.json';
-           var output= 'test/report/cucumber_report.html';
-        var options = {
-            theme: 'bootstrap',
-            jsonFile: jsonFile,
-            output: output,
-            reportSuiteAsScenarios: true
-        };
-        return reporter.generate(options);
 
-    }*/
 };
