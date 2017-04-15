@@ -6,11 +6,15 @@ var myStepDefinitionsWrapper = function () {
     var chaiAsPromised = require('chai-as-promised');
     chai.use(chaiAsPromised);
     var expect = chai.expect;
+    var log4js = require('log4js');
+    var logger = log4js.getLogger();
+
 
     //PageObjects
     landingPage = require('./locators/landingScr.js');
     fruitDetailsPage = require('./locators/fruitDetailsScr.js');
     summaryPage = require('./locators/summaryScr.js');
+
 
 
     this.Given(/^I go to the fruit site$/, function () {
