@@ -19,16 +19,16 @@ module.exports = function JsonOutputHook() {
         });
     });
 
-    this.After(function (scenario, callback) {
-        browser.takeScreenshot().then(function (base64png) {
-            var decodedImage = new Buffer(base64png, 'base64');
-            scenario.attach(decodedImage, 'image/png', function (error) {
-                callback(error);
-            });
-        }, function (err) {
-            callback(err);
-        });
-    });
+    // this.After(function (scenario, callback) {
+    //     browser.takeScreenshot().then(function (base64png) {
+    //         var decodedImage = new Buffer(base64png, 'base64');
+    //         scenario.attach(decodedImage, 'image/png', function (error) {
+    //             callback(error);
+    //         });
+    //     }, function (err) {
+    //         callback(err);
+    //     });
+    // });
 
     this.registerHandler('AfterFeatures', function (features, callback) {
         var options = {

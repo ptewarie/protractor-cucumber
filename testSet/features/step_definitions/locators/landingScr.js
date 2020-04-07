@@ -10,7 +10,15 @@ var landingScr = function() {
     this.shoppingBasket = element.all(by.css('a[title="go to shopping cart"]')).get(0);
 
     // Background
-    this.url = "http://demo.componentone.com/Wijmo/Angular/ShoppingCart/ShoppingCart/#/store";
+    this.url = "https://demos.wijmo.com/5/Angular/ShoppingCart/ShoppingCart/#/";
+
+    this.clickOnProduct = function(fruit){
+        return this.productNameList.filter(function (elem) {
+            return elem.getText().then(function (text) {
+                return text === fruit;
+            });
+        })
+    };
 
 
 
